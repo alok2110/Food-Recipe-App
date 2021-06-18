@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.search_form {
+  margin-top: 18px;
+}
+
+.searchInput {
+  padding: 6px 16px;
+  min-width: 200px;
+  max-width: 100vw;
+}
+
+.searchButton {
+  margin-left: 10px;
+  padding: 6px 16px;
+  background-color: #4BB543;
+  border: 2px solid #4BB543;
+  border-radius: 5px;
+  color: white;
+}
+
+.app__recipe {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: 230px 230px;
+  align-items: baseline;
+  text-align: center;
+  justify-content: center;
+}
+
+.app_healthLabels {
+  padding: 7px 8px;
+  margin-left: 6px;
+  border-radius: 4px;
+}
